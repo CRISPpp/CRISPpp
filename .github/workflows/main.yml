@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@master
         with:
-          token: ${{ secrets.TEST }}
+          token: ${{ secrets.METRICS_TOKEN }}
           user: CRISPpp
           template: classic
           config_timezone: Asia/Shanghai
